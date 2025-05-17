@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cavernsofchaos:block/golden_slab"
+    },
+    "type=double": {
+      "model": "cavernsofchaos:block/goldbricks"
+    },
+    "type=top": {
+      "model": "cavernsofchaos:block/golden_slab_top"
+    }
+  }
+}

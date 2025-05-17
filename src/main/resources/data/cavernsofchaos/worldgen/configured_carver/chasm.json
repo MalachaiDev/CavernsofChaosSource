@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:cave",
+  "config": {
+    "probability": 0.3,
+    "replaceable": [
+      "minecraft:stone",
+      "minecraft:deepslate",
+      "cavernsofchaos:guildstone"
+    ],
+    "y": {
+      "type": "minecraft:uniform",
+      "min_inclusive": {
+        "above_bottom": 0
+      },
+      "max_inclusive": {
+        "absolute": 60
+      }
+    },
+    "yScale": 1.3,
+    "lava_level": {
+      "above_bottom": 10
+    },
+    "horizontal_radius_multiplier": 2,
+    "vertical_radius_multiplier": 3,
+    "floor_level": 0
+  }
+}

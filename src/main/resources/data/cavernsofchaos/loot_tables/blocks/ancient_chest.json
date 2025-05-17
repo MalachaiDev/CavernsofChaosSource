@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "conditions": [],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cavernsofchaos:ancient_chest"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "cavernsofchaos:ancient_chest"
+}

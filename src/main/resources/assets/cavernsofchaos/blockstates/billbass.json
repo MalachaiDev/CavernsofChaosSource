@@ -1,0 +1,38 @@
+
+{
+  "variants": {
+    "facing=south,lit=true": {
+      "model": "cavernsofchaos:block/billbass",
+
+      "y": 270
+    },
+    "facing=north,lit=true": {
+      "model": "cavernsofchaos:block/billbass",
+      "y": 90
+    },
+    "facing=east,lit=true": {
+      "model": "cavernsofchaos:block/billbass",
+      "y": 180
+    },
+    "facing=west,lit=true": {
+      "model": "cavernsofchaos:block/billbass"
+
+    },
+    "facing=south,lit=false": {
+      "model": "cavernsofchaos:block/billbassactive",
+      "y": 270
+    },
+    "facing=north,lit=false": {
+      "model": "cavernsofchaos:block/billbassactive",
+      "y": 90
+    },
+    "facing=east,lit=false": {
+      "model": "cavernsofchaos:block/billbassactive",
+      "y": 180
+    },
+    "facing=west,lit=false": {
+      "model": "cavernsofchaos:block/billbassactive"
+
+    }
+  }
+}

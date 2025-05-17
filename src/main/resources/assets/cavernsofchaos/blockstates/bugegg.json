@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"": [
+			{"model": "cavernsofchaos:block/bugegg1"},
+			{"model": "cavernsofchaos:block/bugegg2"}
+		]
+	}
+}

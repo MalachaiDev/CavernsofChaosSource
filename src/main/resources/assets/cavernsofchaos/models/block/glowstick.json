@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "cavernsofchaos:block/glowstick",
+		"particle": "cavernsofchaos:block/glowstick"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 2],
+			"to": [18, 3, 5],
+			"rotation": {"angle": -45, "axis": "y", "origin": [4, 0, 2]},
+			"faces": {
+				"north": {"uv": [0, 0, 14, 3], "texture": "#0"},
+				"east": {"uv": [0, 12, 3, 15], "texture": "#0"},
+				"south": {"uv": [0, 3, 14, 6], "texture": "#0"},
+				"west": {"uv": [3, 12, 6, 15], "texture": "#0"},
+				"up": {"uv": [14, 9, 0, 6], "texture": "#0"},
+				"down": {"uv": [14, 9, 0, 12], "texture": "#0"}
+			}
+		}
+	]
+}

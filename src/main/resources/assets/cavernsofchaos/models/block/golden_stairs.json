@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "cavernsofchaos:block/goldbricks",
+        "side": "cavernsofchaos:block/goldbricks",
+        "top": "cavernsofchaos:block/goldbricks"
+  }
+}

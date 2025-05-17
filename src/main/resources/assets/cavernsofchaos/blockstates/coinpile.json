@@ -1,0 +1,51 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "cavernsofchaos:block/coinpile/coinpile1",
+        "y": 180
+      },
+      {
+        "model": "cavernsofchaos:block/coinpile/coinpile1",
+        "y": 270
+      },
+      {
+        "model": "cavernsofchaos:block/coinpile/coinpile1",
+        "y": 90
+      },
+      {
+        "model": "cavernsofchaos:block/coinpile/coinpile1"
+      },
+      {
+        "model": "cavernsofchaos:block/coinpile/coinpile2",
+        "y": 180
+      },
+      {
+        "model": "cavernsofchaos:block/coinpile/coinpile2",
+        "y": 270
+      },
+      {
+        "model": "cavernsofchaos:block/coinpile/coinpile2",
+        "y": 90
+      },
+      {
+        "model": "cavernsofchaos:block/coinpile/coinpile2"
+      },
+      {
+        "model": "cavernsofchaos:block/coinpile/coinpile3",
+        "y": 180
+      },
+      {
+        "model": "cavernsofchaos:block/coinpile/coinpile3",
+        "y": 270
+      },
+      {
+        "model": "cavernsofchaos:block/coinpile/coinpile3",
+        "y": 90
+      },
+      {
+        "model": "cavernsofchaos:block/coinpile/coinpile3"
+      }
+    ]
+  }
+}

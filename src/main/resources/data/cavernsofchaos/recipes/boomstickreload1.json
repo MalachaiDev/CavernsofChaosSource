@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "cavernsofchaos:boomstick",
+      "durability":"1"
+    },
+    {
+      "item": "cavernsofchaos:buckshot"
+    },
+    {
+      "item": "cavernsofchaos:buckshot"
+    }
+  ],
+  "result": {
+    "item": "cavernsofchaos:boomstick",
+    "durability":"2"
+  }
+}

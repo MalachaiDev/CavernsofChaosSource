@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,open=false": {
+      "model": "cavernsofchaos:block/beartrapclosed"
+    },
+    "facing=south,open=false": {
+      "model": "cavernsofchaos:block/beartrapclosed",
+      "y": 180
+    },
+    "facing=west,open=false": {
+      "model": "cavernsofchaos:block/beartrapclosed",
+      "y": 270
+    },
+    "facing=east,open=false": {
+      "model": "cavernsofchaos:block/beartrapclosed",
+      "y": 90
+    },
+    "facing=north,open=true": {
+      "model": "cavernsofchaos:block/beartrapopen"
+    },
+    "facing=south,open=true": {
+      "model": "cavernsofchaos:block/beartrapopen",
+      "y": 180
+    },
+    "facing=west,open=true": {
+      "model": "cavernsofchaos:block/beartrapopen",
+      "y": 270
+    },
+    "facing=east,open=true": {
+      "model": "cavernsofchaos:block/beartrapopen",
+      "y": 90
+    }
+  }
+}

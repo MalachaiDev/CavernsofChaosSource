@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [{
+      "model": "cavernsofchaos:block/glowstick",
+      "y": 180
+    },
+      {
+        "model": "cavernsofchaos:block/glowstick",
+        "y": 270
+      },
+      {
+        "model": "cavernsofchaos:block/glowstick2",
+        "y": 270
+      },
+      {
+        "model": "cavernsofchaos:block/glowstick2",
+        "y": 270
+      }
+    ]
+  }
+}

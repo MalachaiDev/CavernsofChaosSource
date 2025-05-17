@@ -1,0 +1,61 @@
+
+{
+  "variants": {
+    "facing=north,open=false": {
+      "model": "cavernsofchaos:block/ancientchest"
+    },
+    "facing=south,open=false": {
+      "model": "cavernsofchaos:block/ancientchest",
+      "y": 180
+    },
+    "facing=west,open=false": {
+      "model": "cavernsofchaos:block/ancientchest",
+      "y": 270
+    },
+    "facing=east,open=false": {
+      "model": "cavernsofchaos:block/ancientchest",
+      "y": 90
+    },
+    "facing=up,open=false": {
+      "model": "cavernsofchaos:block/ancientchest"
+    },
+    "facing=up,open=false": {
+      "model": "cavernsofchaos:block/ancientchest",
+      "y": 90
+    },
+    "facing=up,open=false": {
+      "model": "cavernsofchaos:block/ancientchest",
+      "y": 270
+    },
+    "facing=up,open=false": {
+      "model": "cavernsofchaos:block/ancientchest",
+      "y": 180
+    },
+    "facing=down,open=false": {
+      "model": "cavernsofchaos:block/ancientchest",
+      "y": 180
+    },
+    "facing=north,open=true": {
+      "model": "cavernsofchaos:block/ancientchestopen"
+    },
+    "facing=south,open=true": {
+      "model": "cavernsofchaos:block/ancientchestopen",
+      "y": 180
+    },
+    "facing=west,open=true": {
+      "model": "cavernsofchaos:block/ancientchestopen",
+      "y": 270
+    },
+    "facing=east,open=true": {
+      "model": "cavernsofchaos:block/ancientchestopen",
+      "y": 90
+    },
+    "facing=up,open=true": {
+      "model": "cavernsofchaos:block/ancientchestopen"
+    },
+    "facing=down,open=true": {
+      "model": "cavernsofchaos:block/ancientchestopen",
+      "y": 180
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "cavernsofchaos:guildstone"
+  },
+  "result": "cavernsofchaos:guildtile",
+  "count": 1
+}

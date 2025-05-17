@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+      {"model": "cavernsofchaos:block/nitrog"},
+      {"model": "cavernsofchaos:block/nitrog", "Y": 90}
+      ]
+  }
+}

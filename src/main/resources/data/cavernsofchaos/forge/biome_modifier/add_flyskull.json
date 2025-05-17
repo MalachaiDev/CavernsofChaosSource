@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_spawns", // Required
+  "biomes": "#minecraft:is_overworld",
+  "spawners":
+  {
+    "type": "cavernsofchaos:flyskull", // Type of mob to spawn
+    "weight": 35, // int, spawn weighting
+    "minCount": 1, // int, minimum pack size
+    "maxCount": 2 // int, maximum pack size
+  }
+}

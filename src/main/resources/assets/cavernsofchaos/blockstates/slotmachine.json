@@ -1,0 +1,20 @@
+
+{
+  "variants": {
+    "facing=south": {
+      "model": "cavernsofchaos:block/slotmachine"
+    },
+    "facing=north": {
+      "model": "cavernsofchaos:block/slotmachine",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "cavernsofchaos:block/slotmachine",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "cavernsofchaos:block/slotmachine",
+      "y": 90
+    }
+  }
+}

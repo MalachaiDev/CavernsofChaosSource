@@ -1,0 +1,88 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:dandelion"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:poppy"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:torchflower"
+                }
+              },
+              {
+                "weight": 10,
+                "data": {
+                  "Name": "minecraft:tall_grass",
+                  "Properties": {
+                    "half": "lower"
+                  }
+                }
+              },
+              {
+                "weight": 10,
+                "data": {
+                  "Name": "minecraft:grass"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:uniform",
+            "min_inclusive": {
+              "above_bottom": 16
+            },
+            "max_inclusive": {
+              "absolute": 56
+            }
+          }
+        },
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "#cavernsofchaos:cave_blocks",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "tries": 80,
+    "xz_spread": 5,
+    "y_spread": 3
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "cavernsofchaos:gemstoneblock"
+    }
+  ],
+  "result": {
+    "item": "cavernsofchaos:gemstones",
+    "count": 9
+  }
+}

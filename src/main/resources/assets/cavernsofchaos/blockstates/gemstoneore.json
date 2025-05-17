@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {"model": "cavernsofchaos:block/gemstoneore1"},
+      {"model": "cavernsofchaos:block/gemstoneore2"},
+      {"model": "cavernsofchaos:block/gemstoneore3"}
+    ]
+  }
+}

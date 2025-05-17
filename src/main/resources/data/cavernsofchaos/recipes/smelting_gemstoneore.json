@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "ingredient": {
+    "item": "cavernsofchaos:gemstoneore"
+  },
+  "result": "cavernsofchaos:gemstones",
+  "experience": 4
+}

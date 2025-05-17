@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "depth": 1,
+    "extra_bottom_block_chance": 0.5,
+    "extra_edge_column_chance": 1,
+    "ground_state": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:oak_leaves",
+            "Properties": {
+              "persistent": "true"
+            }
+          }
+        }
+      ]
+    },
+    "replaceable": "#minecraft:base_stone_overworld",
+    "surface": "ceiling",
+    "vegetation_chance": 0.001,
+    "vegetation_feature": {
+      "feature": {
+        "config": {
+          "direction": "down",
+          "allowed_placement": {
+            "type": "minecraft:any_of",
+            "predicates": [
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:solid"
+                }
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:oak_leaves",
+                  "minecraft:birch_leaves"
+                ]
+              }
+            ]
+          },
+          "prioritize_tip": false,
+          "layers": [
+            {
+              "height": 60,
+              "provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:oak_log"
+                }
+              }
+            }
+          ]
+        },
+        "type": "minecraft:block_column"
+      },
+      "placement": []
+    },
+    "vertical_range": 5,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "max_inclusive": 10,
+        "min_inclusive": 4
+      }
+    }
+  }
+}

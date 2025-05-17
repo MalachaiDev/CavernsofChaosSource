@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "": [{
+      "model": "cavernsofchaos:block/coinmound",
+      "y": 180
+    },
+      {
+        "model": "cavernsofchaos:block/coinmound",
+        "y": 270
+      },
+      {
+        "model": "cavernsofchaos:block/coinmound",
+        "y": 90
+      },
+      {
+        "model": "cavernsofchaos:block/coinmound"
+      }
+    ]
+  }
+}

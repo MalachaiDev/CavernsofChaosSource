@@ -1,0 +1,111 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 1,
+        "feature": {
+          "feature": {
+            "config": {
+              "to_place": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "weight": 6,
+                    "data": {
+                      "Name": "cavernsofchaos:ancient_chest",
+                      "Properties": {
+                        "facing": "south",
+                        "conditional": "true"
+                      }
+                    }
+                  },
+                  {
+                    "weight": 6,
+                    "data": {
+                      "Name": "cavernsofchaos:ancient_chest",
+                      "Properties": {
+                        "facing": "east",
+                        "conditional": "true"
+                      }
+                    }
+                  },
+                  {
+                    "weight": 6,
+                    "data": {
+                      "Name": "cavernsofchaos:ancient_chest",
+                      "Properties": {
+                        "facing": "west",
+                        "conditional": "true"
+                      }
+                    }
+                  },
+                  {
+                    "weight": 6,
+                    "data": {
+                      "Name": "cavernsofchaos:ancient_chest",
+                      "Properties": {
+                        "facing": "north",
+                        "conditional": "true"
+                      }
+                    }
+                  },
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "cavernsofchaos:ancient_chest",
+                      "Properties": {
+                        "facing": "south",
+                        "conditional": "true",
+                        "eye": "true"
+                      }
+                    }
+                  },
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "cavernsofchaos:ancient_chest",
+                      "Properties": {
+                        "facing": "east",
+                        "conditional": "true",
+                        "eye": "true"
+                      }
+                    }
+                  },
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "cavernsofchaos:ancient_chest",
+                      "Properties": {
+                        "facing": "west",
+                        "conditional": "true",
+                        "eye": "true"
+                      }
+                    }
+                  },
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "cavernsofchaos:ancient_chest",
+                      "Properties": {
+                        "facing": "north",
+                        "conditional": "true",
+                        "eye": "true"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "type": "minecraft:simple_block"
+          },
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": "minecraft:ore_gold",
+      "placement": []
+    }
+  }
+}

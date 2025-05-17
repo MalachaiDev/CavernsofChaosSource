@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cavernsofchaos:ancientchest",
+          "weight": 1,
+          "quality": 1
+        }
+      ]
+    }
+  ]
+}

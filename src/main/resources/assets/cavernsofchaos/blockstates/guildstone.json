@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {"model": "cavernsofchaos:block/guildstone"},
+      {"model": "cavernsofchaos:block/guildstone"},
+      {"model": "cavernsofchaos:block/guildstone"},
+      {"model": "cavernsofchaos:block/guildstone"},
+      {"model": "cavernsofchaos:block/guildstone"},
+      {"model": "cavernsofchaos:block/guildstone"},
+      {"model": "cavernsofchaos:block/guildstone"},
+      {"model": "cavernsofchaos:block/guildstone"},
+      {"model": "cavernsofchaos:block/guildstone"},
+      {"model": "cavernsofchaos:block/guildstone"},
+      {"model": "cavernsofchaos:block/guildstone"},
+      {"model": "cavernsofchaos:block/guildstone"},
+      {"model": "cavernsofchaos:block/guildstone2"},
+      {"model": "cavernsofchaos:block/guildstone3"},
+      {"model": "cavernsofchaos:block/guildstone4"}
+    ]
+  }
+}

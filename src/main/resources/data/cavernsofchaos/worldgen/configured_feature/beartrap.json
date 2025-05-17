@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "cavernsofchaos:beartrap",
+            "Properties": {
+              "facing": "north"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "cavernsofchaos:beartrap",
+            "Properties": {
+              "facing": "south"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "cavernsofchaos:beartrap",
+            "Properties": {
+              "facing": "east"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "cavernsofchaos:beartrap",
+            "Properties": {
+              "facing": "west"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

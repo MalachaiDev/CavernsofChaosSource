@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "tag": "",
+          "block": "cavernsofchaos:guildstone"
+        },
+        "state": {
+          "Name": "cavernsofchaos:gemstoneore"
+        }
+      }
+    ],
+    "size": 15,
+    "discard_chance_on_air_exposure": 0
+  }
+}

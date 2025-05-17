@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "minecraft:iron_nugget"
+    },
+    "O": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "XOX"
+  ],
+  "result": {
+    "item": "cavernsofchaos:beartrap"
+  },
+  "show_notification": true
+}

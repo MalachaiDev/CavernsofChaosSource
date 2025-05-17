@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "cavernsofchaos:block/plankedstone",
+    "end": "minecraft:block/oak_planks"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "slotwinbig": {
+    "subtitles": "sounds.cavernsofchaos.slotwinbig",
+    "sounds": [
+      "cavernsofchaos:winbig"
+    ]
+  },
+  "bass": {
+    "subtitles": "sounds.cavernsofchaos.bass",
+    "sounds": [
+      "cavernsofchaos:bass"
+    ]
+  },
+  "slotwinsmall": {
+    "subtitle": "sounds.cavernsofchaos.slotwinsmall",
+    "sounds": [
+      "cavernsofchaos:winsmall1",
+      "cavernsofchaos:winsmall2",
+      "cavernsofchaos:winsmall3"
+    ]
+  },
+  "scrape": {
+    "subtitle": "sounds.cavernsofchaos.scrape",
+    "sounds": [
+      "cavernsofchaos:scrape"
+    ]
+  },
+  "trapset": {
+    "subtitle": "sounds.cavernsofchaos.trapset",
+    "sounds": [
+      "cavernsofchaos:beartrapset"
+    ]
+  },
+  "trapsnap": {
+    "subtitle": "sounds.cavernsofchaos.trapsnap",
+    "sounds": [
+      "cavernsofchaos:beartrapsnap"
+    ]
+  },
+  "slotlose": {
+    "subtitle": "sounds.cavernsofchaos.slotlose",
+    "sounds": [
+      "cavernsofchaos:lose1",
+      "cavernsofchaos:lose2",
+      "cavernsofchaos:lose3"
+    ]
+  },
+  "slotlosebad": {
+    "subtitle": "sounds.cavernsofchaos.slotlosebad",
+    "sounds": [
+      "cavernsofchaos:losebad1",
+      "cavernsofchaos:losebad2",
+      "cavernsofchaos:losebad3"
+    ]
+  },
+  "slotlosecrit": {
+    "subtitle": "sounds.cavernsofchaos.slotlosecrit",
+    "sounds": [
+      "cavernsofchaos:losecrit"
+    ]
+  },
+  "insertcoin": {
+    "subtitle": "sounds.cavernsofchaos.insertcoin",
+    "sounds": [
+      "cavernsofchaos:insertcoin1",
+      "cavernsofchaos:insertcoin2",
+      "cavernsofchaos:insertcoin3"
+    ]
+  },
+  "crumble": {
+    "subtitle": "sounds.cavernsofchaos.crumble",
+    "sounds": [
+      "cavernsofchaos:crumble1",
+      "cavernsofchaos:crumble2",
+      "cavernsofchaos:crumble3"
+    ]
+  },
+  "mimicjumpscare": {
+    "subtitle": "sounds.cavernsofchaos.crumble",
+    "sounds": [
+      "cavernsofchaos:mimicjumpscare"
+
+    ]
+  },
+  "mimicdeath": {
+    "subtitle": "sounds.cavernsofchaos.crumble",
+    "sounds": [
+      "cavernsofchaos:mimicdie"
+
+    ]
+  },
+  "mimicambient": {
+    "subtitle": "sounds.cavernsofchaos.crumble",
+    "sounds": [
+      "cavernsofchaos:mimicambient",
+      "cavernsofchaos:mimicambient2"
+
+    ]
+  },
+  "mimichurt": {
+    "subtitle": "sounds.cavernsofchaos.crumble",
+    "sounds": [
+      "cavernsofchaos:mimichurt",
+      "cavernsofchaos:mimichurt2"
+
+    ]
+  }
+}

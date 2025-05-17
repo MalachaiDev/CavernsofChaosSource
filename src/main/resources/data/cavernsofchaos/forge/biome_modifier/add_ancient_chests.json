@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "features": "cavernsofchaos:ancient_chests",
+  "biomes": "#minecraft:is_overworld",
+  "step": "vegetal_decoration"
+}

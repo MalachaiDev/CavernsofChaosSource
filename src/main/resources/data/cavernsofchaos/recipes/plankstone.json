@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "XXX",
+    "OOO",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "O": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "cavernsofchaos:plankstone",
+    "count": 8
+  }
+}

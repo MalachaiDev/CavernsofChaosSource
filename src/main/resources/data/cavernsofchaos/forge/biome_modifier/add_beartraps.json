@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "features": "cavernsofchaos:beartrap",
+  "biomes": "#minecraft:is_overworld",
+  "step": "vegetal_decoration"
+}

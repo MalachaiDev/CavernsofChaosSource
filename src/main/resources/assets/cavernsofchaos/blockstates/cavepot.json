@@ -1,0 +1,12 @@
+{
+	"variants": {
+		"": [
+			{"model": "cavernsofchaos:block/cavepots/potlarge"},
+			{"model": "cavernsofchaos:block/cavepots/potlargeturned"},
+			{"model": "cavernsofchaos:block/cavepots/potmed"},
+			{"model": "cavernsofchaos:block/cavepots/potmedturned"},
+			{"model": "cavernsofchaos:block/cavepots/potsmall"},
+			{"model": "cavernsofchaos:block/cavepots/potsmallturned"}
+		]
+	}
+}

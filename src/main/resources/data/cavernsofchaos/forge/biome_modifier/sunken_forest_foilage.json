@@ -1,0 +1,8 @@
+{
+"type" : "forge:add_features",
+"biomes" : "cavernsofchaos:sunken_forest",
+"features" :[
+        "cavernsofchaos:sunken_forest_foilage"
+            ],
+"step": "vegetal_decoration"
+}

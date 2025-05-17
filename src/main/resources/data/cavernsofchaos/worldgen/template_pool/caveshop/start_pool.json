@@ -1,0 +1,74 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "cavernsofchaos:cavecabin",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:block_rot",
+              "integrity": 0.95
+            }
+          ]
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "cavernsofchaos:casinocabin",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:block_rot",
+              "integrity": 0.95
+            }
+          ]
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "cavernsofchaos:miningcabin",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:block_rot",
+              "integrity": 0.7,
+              "rottable_blocks": "cavernsofchaos:crate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "cavernsofchaos:cabinfort",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:block_rot",
+              "integrity": 0.5,
+              "rottable_blocks": [
+                "cavernsofchaos:punji",
+                "cavernsofchaos:beartrap"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
