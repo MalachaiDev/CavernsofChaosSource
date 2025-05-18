@@ -1,4 +1,4 @@
-package net.chance.cavernsofchaos.entity.villagers;
+package net.malachai.cavernsofchaos.entity.villagers;
 
 public class ModVillagers {
 }

@@ -1,4 +1,4 @@
-package net.chance.cavernsofchaos.entity.anims;
+package net.malachai.cavernsofchaos.entity.anims;
 
 import net.minecraft.client.animation.AnimationChannel;
 import net.minecraft.client.animation.AnimationDefinition;

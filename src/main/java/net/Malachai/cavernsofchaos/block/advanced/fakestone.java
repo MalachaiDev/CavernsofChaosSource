@@ -1,27 +1,15 @@
-package net.chance.cavernsofchaos.block.advanced;
+package net.malachai.cavernsofchaos.block.advanced;
 
-import com.google.common.collect.Sets;
-import net.chance.cavernsofchaos.sound.ModSounds;
+import net.malachai.cavernsofchaos.sound.ModSounds;
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.Direction;
-import net.minecraft.network.protocol.game.DebugPackets;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.LevelReader;
-import net.minecraft.world.level.block.AirBlock;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.phys.shapes.VoxelShape;
-import net.minecraft.world.level.block.state.BlockState;
-
-import java.util.HashSet;
 
 public class fakestone extends Block {
     public fakestone(Properties pProperties) {

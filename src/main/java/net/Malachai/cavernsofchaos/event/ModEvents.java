@@ -1,8 +1,8 @@
-package net.chance.cavernsofchaos.event;
+package net.malachai.cavernsofchaos.event;
 
-import net.chance.cavernsofchaos.Cavernsofchaos;
-import net.chance.cavernsofchaos.block.ModBlocks;
-import net.chance.cavernsofchaos.item.ModItems;
+import net.malachai.cavernsofchaos.Cavernsofchaos;
+import net.malachai.cavernsofchaos.block.ModBlocks;
+import net.malachai.cavernsofchaos.item.ModItems;
 import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;

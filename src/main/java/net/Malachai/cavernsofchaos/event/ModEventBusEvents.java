@@ -1,31 +1,14 @@
-package net.chance.cavernsofchaos.event;
+package net.malachai.cavernsofchaos.event;
 
-import net.chance.cavernsofchaos.Cavernsofchaos;
-import net.chance.cavernsofchaos.block.ModBlocks;
-import net.chance.cavernsofchaos.entity.ModEntities;
-import net.chance.cavernsofchaos.entity.client.ModModelLayers;
-import net.chance.cavernsofchaos.entity.client.boulderGolemModel;
-import net.chance.cavernsofchaos.entity.custom.*;
-import net.chance.cavernsofchaos.item.ModItems;
-import net.chance.cavernsofchaos.particle.ModParticles;
-import net.chance.cavernsofchaos.particle.custom.LeafParticles;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.particle.ParticleEngine;
-import net.minecraft.core.particles.ParticleTypes;
+import net.malachai.cavernsofchaos.Cavernsofchaos;
+import net.malachai.cavernsofchaos.entity.ModEntities;
+import net.malachai.cavernsofchaos.entity.custom.*;
 import net.minecraft.world.entity.SpawnPlacements;
-import net.minecraft.world.entity.npc.VillagerTrades;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.trading.MerchantOffer;
 import net.minecraft.world.level.levelgen.Heightmap;
-import net.minecraftforge.client.event.RegisterParticleProvidersEvent;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.event.entity.SpawnPlacementRegisterEvent;
-import net.minecraftforge.event.village.WandererTradesEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-
-import java.util.List;
 
 @Mod.EventBusSubscriber(modid = Cavernsofchaos.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModEventBusEvents {

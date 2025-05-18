@@ -1,17 +1,13 @@
-package net.chance.cavernsofchaos.item.advanced;
+package net.malachai.cavernsofchaos.item.advanced;
 
-import net.chance.cavernsofchaos.entity.custom.boomstick_projectile;
-import net.chance.cavernsofchaos.entity.custom.nitrobottle_projectile;
+import net.malachai.cavernsofchaos.entity.custom.boomstick_projectile;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.stats.Stats;
-import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
-import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ProjectileWeaponItem;

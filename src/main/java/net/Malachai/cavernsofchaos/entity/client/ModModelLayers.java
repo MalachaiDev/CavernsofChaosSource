@@ -1,8 +1,7 @@
-package net.chance.cavernsofchaos.entity.client;
+package net.malachai.cavernsofchaos.entity.client;
 
-import net.chance.cavernsofchaos.Cavernsofchaos;
+import net.malachai.cavernsofchaos.Cavernsofchaos;
 import net.minecraft.client.model.geom.ModelLayerLocation;
-import net.minecraft.client.model.geom.ModelLayers;
 import net.minecraft.resources.ResourceLocation;
 
 public class ModModelLayers {

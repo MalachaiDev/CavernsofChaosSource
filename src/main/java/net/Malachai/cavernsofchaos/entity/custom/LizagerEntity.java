@@ -1,6 +1,5 @@
-package net.chance.cavernsofchaos.entity.custom;
+package net.malachai.cavernsofchaos.entity.custom;
 
-import net.chance.cavernsofchaos.entity.goals.SnuffTorchGoal;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;

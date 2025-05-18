@@ -1,6 +1,16 @@
 {
   "type": "forge:add_spawns", // Required
-  "biomes": "#minecraft:is_overworld",
+  "biomes": {
+    "type": "forge:and",
+    "values":
+    [
+      "#minecraft:is_overworld",
+      {
+        "type": "forge:not",
+        "value": "#c:no_default_monsters"
+      }
+    ]
+  },
   "spawners":
   {
     "type": "cavernsofchaos:flyskull", // Type of mob to spawn

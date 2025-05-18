@@ -1,12 +1,12 @@
-package net.chance.cavernsofchaos.block;
+package net.malachai.cavernsofchaos.block;
 
-import net.chance.cavernsofchaos.Cavernsofchaos;
-import net.chance.cavernsofchaos.block.advanced.*;
-import net.chance.cavernsofchaos.block.blockentity.ancientChestBlock;
-import net.chance.cavernsofchaos.block.blockentity.bugEggBlock;
-import net.chance.cavernsofchaos.block.blockentity.dartTrapBlock;
+import net.malachai.cavernsofchaos.Cavernsofchaos;
+import net.malachai.cavernsofchaos.block.advanced.*;
+import net.malachai.cavernsofchaos.block.blockentity.ancientChestBlock;
+import net.malachai.cavernsofchaos.block.blockentity.bugEggBlock;
+import net.malachai.cavernsofchaos.block.blockentity.dartTrapBlock;
 
-import net.chance.cavernsofchaos.item.ModItems;
+import net.malachai.cavernsofchaos.item.ModItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;

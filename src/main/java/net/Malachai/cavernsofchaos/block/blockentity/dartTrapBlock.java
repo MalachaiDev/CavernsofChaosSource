@@ -1,6 +1,6 @@
-package net.chance.cavernsofchaos.block.blockentity;
+package net.malachai.cavernsofchaos.block.blockentity;
 
-import net.chance.cavernsofchaos.block.ModBlockEntities;
+import net.malachai.cavernsofchaos.block.ModBlockEntities;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;

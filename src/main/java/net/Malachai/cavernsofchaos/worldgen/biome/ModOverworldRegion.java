@@ -1,4 +1,4 @@
-package net.chance.cavernsofchaos.worldgen.biome;
+package net.malachai.cavernsofchaos.worldgen.biome;
 
 import com.mojang.datafixers.util.Pair;
 import net.minecraft.core.Registry;
@@ -10,23 +10,6 @@ import net.minecraft.world.level.biome.Climate;
 import terrablender.api.Region;
 import terrablender.api.RegionType;
 import terrablender.api.VanillaParameterOverlayBuilder;
-import net.minecraft.core.HolderGetter;
-import net.minecraft.core.particles.ParticleTypes;
-import net.minecraft.data.worldgen.BiomeDefaultFeatures;
-import net.minecraft.sounds.Musics;
-import net.minecraft.sounds.SoundEvents;
-import net.minecraft.util.Mth;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.MobCategory;
-import net.minecraft.world.level.biome.*;
-import net.minecraft.world.level.levelgen.GenerationStep;
-import net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver;
-import net.minecraft.world.level.levelgen.placement.PlacedFeature;
-
-
-
-
-
 
 
 import java.util.function.Consumer;

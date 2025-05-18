@@ -1,10 +1,8 @@
-package net.chance.cavernsofchaos.particle;
+package net.malachai.cavernsofchaos.particle;
 
-import net.chance.cavernsofchaos.Cavernsofchaos;
+import net.malachai.cavernsofchaos.Cavernsofchaos;
 import net.minecraft.core.particles.ParticleType;
 import net.minecraft.core.particles.SimpleParticleType;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.sounds.SoundEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;

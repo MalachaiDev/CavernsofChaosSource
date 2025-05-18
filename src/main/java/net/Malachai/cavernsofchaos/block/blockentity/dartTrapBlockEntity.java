@@ -1,17 +1,13 @@
-package net.chance.cavernsofchaos.block.blockentity;
+package net.malachai.cavernsofchaos.block.blockentity;
 
-import net.chance.cavernsofchaos.block.ModBlockEntities;
-import net.chance.cavernsofchaos.block.ModBlocks;
-import net.chance.cavernsofchaos.sound.ModSounds;
+import net.malachai.cavernsofchaos.block.ModBlockEntities;
+import net.malachai.cavernsofchaos.block.ModBlocks;
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.Vec3i;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.monster.Silverfish;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.projectile.Arrow;
 import net.minecraft.world.level.BaseSpawner;

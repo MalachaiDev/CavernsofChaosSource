@@ -1,7 +1,6 @@
-package net.chance.cavernsofchaos.entity.client;
+package net.malachai.cavernsofchaos.entity.client;
 
-import net.chance.cavernsofchaos.Cavernsofchaos;
-import net.minecraft.client.model.EndermanModel;
+import net.malachai.cavernsofchaos.Cavernsofchaos;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.entity.RenderLayerParent;
 import net.minecraft.client.renderer.entity.layers.EyesLayer;

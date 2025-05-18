@@ -1,50 +1,34 @@
-package net.chance.cavernsofchaos;
+package net.malachai.cavernsofchaos;
 
 import com.mojang.logging.LogUtils;
-import net.chance.cavernsofchaos.block.ModBlockEntities;
-import net.chance.cavernsofchaos.block.ModBlocks;
-import net.chance.cavernsofchaos.entity.ModEntities;
-import net.chance.cavernsofchaos.entity.client.*;
-import net.chance.cavernsofchaos.item.ModCreativeModeTabs;
-import net.chance.cavernsofchaos.item.ModItems;
-import net.chance.cavernsofchaos.particle.ModParticles;
-import net.chance.cavernsofchaos.sound.ModSounds;
-import net.chance.cavernsofchaos.worldgen.biome.ModTerrablender;
-import net.chance.cavernsofchaos.worldgen.biome.surface.ModSurfaceRules;
+import net.malachai.cavernsofchaos.block.ModBlockEntities;
+import net.malachai.cavernsofchaos.block.ModBlocks;
+import net.malachai.cavernsofchaos.entity.ModEntities;
+import net.malachai.cavernsofchaos.entity.client.*;
+import net.malachai.cavernsofchaos.item.ModCreativeModeTabs;
+import net.malachai.cavernsofchaos.item.ModItems;
+import net.malachai.cavernsofchaos.particle.ModParticles;
+import net.malachai.cavernsofchaos.sound.ModSounds;
+import net.malachai.cavernsofchaos.worldgen.biome.ModTerrablender;
+import net.malachai.cavernsofchaos.worldgen.biome.surface.ModSurfaceRules;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.world.entity.npc.VillagerTrades;
-import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.*;
-import net.minecraft.world.item.trading.MerchantOffer;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.FlowerPotBlock;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
-import net.minecraftforge.event.village.WandererTradesEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
-import net.minecraftforge.fml.event.IModBusEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 import terrablender.api.SurfaceRuleManager;
-
-import java.util.List;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Cavernsofchaos.MODID)

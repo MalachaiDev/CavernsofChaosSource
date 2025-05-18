@@ -1,30 +1,16 @@
-package net.chance.cavernsofchaos.block.blockentity;
+package net.malachai.cavernsofchaos.block.blockentity;
 
-import net.chance.cavernsofchaos.block.ModBlockEntities;
-import net.chance.cavernsofchaos.block.ModBlocks;
-import net.chance.cavernsofchaos.sound.ModSounds;
+import net.malachai.cavernsofchaos.block.ModBlockEntities;
+import net.malachai.cavernsofchaos.block.ModBlocks;
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.NonNullList;
-import net.minecraft.core.Vec3i;
 import net.minecraft.nbt.CompoundTag;
-import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.sounds.SoundSource;
-import net.minecraft.util.RandomSource;
-import net.minecraft.world.Container;
-import net.minecraft.world.ContainerHelper;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.monster.Silverfish;
-import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.inventory.AbstractContainerMenu;
-import net.minecraft.world.inventory.ChestMenu;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.BaseSpawner;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.SpawnData;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.entity.*;
 import net.minecraft.world.level.block.state.BlockState;
 

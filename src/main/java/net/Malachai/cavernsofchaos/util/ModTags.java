@@ -1,6 +1,6 @@
-package net.chance.cavernsofchaos.util;
+package net.malachai.cavernsofchaos.util;
 
-import net.chance.cavernsofchaos.Cavernsofchaos;
+import net.malachai.cavernsofchaos.Cavernsofchaos;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;

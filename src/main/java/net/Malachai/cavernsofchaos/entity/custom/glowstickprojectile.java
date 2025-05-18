@@ -1,17 +1,15 @@
-package net.chance.cavernsofchaos.entity.custom;
+package net.malachai.cavernsofchaos.entity.custom;
 
-import net.chance.cavernsofchaos.block.ModBlocks;
-import net.chance.cavernsofchaos.block.advanced.glowstickblock;
-import net.chance.cavernsofchaos.item.ModItems;
-import net.chance.cavernsofchaos.entity.ModEntities;
+import net.malachai.cavernsofchaos.block.ModBlocks;
+import net.malachai.cavernsofchaos.block.advanced.glowstickblock;
+import net.malachai.cavernsofchaos.item.ModItems;
+import net.malachai.cavernsofchaos.entity.ModEntities;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.projectile.ThrowableItemProjectile;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.AirBlock;
 import net.minecraft.world.phys.BlockHitResult;
 
 import static net.minecraft.world.level.block.Block.popResource;

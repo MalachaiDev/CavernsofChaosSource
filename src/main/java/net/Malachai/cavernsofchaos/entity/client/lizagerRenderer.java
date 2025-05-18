@@ -1,8 +1,8 @@
-package net.chance.cavernsofchaos.entity.client;
+package net.malachai.cavernsofchaos.entity.client;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import net.chance.cavernsofchaos.Cavernsofchaos;
-import net.chance.cavernsofchaos.entity.custom.LizagerEntity;
+import net.malachai.cavernsofchaos.Cavernsofchaos;
+import net.malachai.cavernsofchaos.entity.custom.LizagerEntity;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;

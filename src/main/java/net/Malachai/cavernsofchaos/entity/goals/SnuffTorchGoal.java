@@ -1,20 +1,15 @@
-package net.chance.cavernsofchaos.entity.goals;
+package net.malachai.cavernsofchaos.entity.goals;
 
-import net.chance.cavernsofchaos.entity.custom.LizagerEntity;
-import net.chance.cavernsofchaos.entity.custom.TorchwraithEntity;
-import net.chance.cavernsofchaos.util.ModTags;
+import net.malachai.cavernsofchaos.entity.custom.TorchwraithEntity;
 import net.minecraft.commands.arguments.EntityAnchorArgument;
 import net.minecraft.core.BlockPos;
-import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.ai.goal.MoveToBlockGoal;
 import net.minecraft.world.level.ClipContext;
 import net.minecraft.world.level.LevelReader;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.Vec3;
-import net.minecraftforge.fml.common.Mod;
 
 public class SnuffTorchGoal extends MoveToBlockGoal {
     private final TorchwraithEntity torchwraith;

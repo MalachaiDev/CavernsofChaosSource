@@ -1,7 +1,7 @@
-package net.chance.cavernsofchaos.item;
+package net.malachai.cavernsofchaos.item;
 
-import net.chance.cavernsofchaos.Cavernsofchaos;
-import net.chance.cavernsofchaos.block.ModBlocks;
+import net.malachai.cavernsofchaos.Cavernsofchaos;
+import net.malachai.cavernsofchaos.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

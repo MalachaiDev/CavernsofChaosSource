@@ -1,9 +1,9 @@
-package net.chance.cavernsofchaos.event;
+package net.malachai.cavernsofchaos.event;
 
-import net.chance.cavernsofchaos.Cavernsofchaos;
-import net.chance.cavernsofchaos.entity.client.*;
-import net.chance.cavernsofchaos.particle.ModParticles;
-import net.chance.cavernsofchaos.particle.custom.LeafParticles;
+import net.malachai.cavernsofchaos.Cavernsofchaos;
+import net.malachai.cavernsofchaos.entity.client.*;
+import net.malachai.cavernsofchaos.particle.ModParticles;
+import net.malachai.cavernsofchaos.particle.custom.LeafParticles;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.client.event.RegisterParticleProvidersEvent;

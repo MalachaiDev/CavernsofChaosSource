@@ -1,4 +1,4 @@
-package net.chance.cavernsofchaos.worldgen;
+package net.malachai.cavernsofchaos.worldgen;
 
 import net.minecraft.world.level.levelgen.placement.*;
 

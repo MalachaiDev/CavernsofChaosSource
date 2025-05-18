@@ -1,4 +1,4 @@
-package net.chance.cavernsofchaos.entity.client;
+package net.malachai.cavernsofchaos.entity.client;
 
 import net.minecraft.client.model.HierarchicalModel;
 import net.minecraft.client.model.geom.ModelPart;

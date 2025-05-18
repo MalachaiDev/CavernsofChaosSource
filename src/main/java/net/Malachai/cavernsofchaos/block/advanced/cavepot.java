@@ -1,4 +1,4 @@
-package net.chance.cavernsofchaos.block.advanced;
+package net.malachai.cavernsofchaos.block.advanced;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.item.FallingBlockEntity;

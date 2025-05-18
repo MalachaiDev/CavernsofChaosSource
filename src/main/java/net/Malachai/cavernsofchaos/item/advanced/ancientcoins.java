@@ -1,6 +1,5 @@
-package net.chance.cavernsofchaos.item.advanced;
+package net.malachai.cavernsofchaos.item.advanced;
 
-import net.minecraft.world.InteractionResult;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.context.BlockPlaceContext;

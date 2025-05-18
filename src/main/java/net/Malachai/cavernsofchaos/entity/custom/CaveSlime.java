@@ -1,4 +1,4 @@
-package net.chance.cavernsofchaos.entity.custom;
+package net.malachai.cavernsofchaos.entity.custom;
 
 import com.google.common.annotations.VisibleForTesting;
 import net.minecraft.core.BlockPos;
@@ -11,7 +11,6 @@ import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.tags.BiomeTags;
 import net.minecraft.util.Mth;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.Difficulty;
@@ -27,13 +26,9 @@ import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.animal.IronGolem;
 import net.minecraft.world.entity.monster.Enemy;
 import net.minecraft.world.entity.monster.Monster;
-import net.minecraft.world.entity.monster.Slime;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.*;
-import net.minecraft.world.level.biome.Biomes;
-import net.minecraft.world.level.levelgen.WorldgenRandom;
 import net.minecraft.world.phys.Vec3;
-import net.minecraftforge.event.entity.SpawnPlacementRegisterEvent;
 
 import javax.annotation.Nullable;
 import java.util.EnumSet;

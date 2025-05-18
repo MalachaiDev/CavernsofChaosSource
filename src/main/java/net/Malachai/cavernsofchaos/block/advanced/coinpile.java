@@ -1,16 +1,11 @@
-package net.chance.cavernsofchaos.block.advanced;
+package net.malachai.cavernsofchaos.block.advanced;
 
-import com.sun.tools.jconsole.JConsoleContext;
-import net.chance.cavernsofchaos.block.ModBlocks;
-import net.chance.cavernsofchaos.item.ModItems;
+import net.malachai.cavernsofchaos.item.ModItems;
 import net.minecraft.core.BlockPos;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.item.FallingBlockEntity;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FallingBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.shapes.CollisionContext;

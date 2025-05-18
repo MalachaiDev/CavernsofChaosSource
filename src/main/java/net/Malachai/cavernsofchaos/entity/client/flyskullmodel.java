@@ -1,16 +1,13 @@
-package net.chance.cavernsofchaos.entity.client;
+package net.malachai.cavernsofchaos.entity.client;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
-import net.chance.cavernsofchaos.entity.anims.ModAnimationDefinition;
-import net.chance.cavernsofchaos.entity.custom.LizagerEntity;
-import net.chance.cavernsofchaos.entity.custom.flyskullEntity;
+import net.malachai.cavernsofchaos.entity.anims.ModAnimationDefinition;
+import net.malachai.cavernsofchaos.entity.custom.flyskullEntity;
 import net.minecraft.client.model.HierarchicalModel;
-import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.Entity;
 
 public class flyskullmodel <T extends Entity> extends HierarchicalModel<T> {

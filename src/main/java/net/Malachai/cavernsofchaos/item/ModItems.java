@@ -1,11 +1,11 @@
-package net.chance.cavernsofchaos.item;
+package net.malachai.cavernsofchaos.item;
 
-import net.chance.cavernsofchaos.Cavernsofchaos;
-import net.chance.cavernsofchaos.block.ModBlocks;
-import net.chance.cavernsofchaos.item.advanced.ancientcoins;
-import net.chance.cavernsofchaos.item.advanced.boomstickItem;
-import net.chance.cavernsofchaos.item.advanced.glowstickitem;
-import net.chance.cavernsofchaos.item.advanced.nitrobottleitem;
+import net.malachai.cavernsofchaos.Cavernsofchaos;
+import net.malachai.cavernsofchaos.block.ModBlocks;
+import net.malachai.cavernsofchaos.item.advanced.ancientcoins;
+import net.malachai.cavernsofchaos.item.advanced.boomstickItem;
+import net.malachai.cavernsofchaos.item.advanced.glowstickitem;
+import net.malachai.cavernsofchaos.item.advanced.nitrobottleitem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;

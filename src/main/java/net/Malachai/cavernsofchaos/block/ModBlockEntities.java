@@ -1,9 +1,9 @@
-package net.chance.cavernsofchaos.block;
+package net.malachai.cavernsofchaos.block;
 
-import net.chance.cavernsofchaos.Cavernsofchaos;
-import net.chance.cavernsofchaos.block.blockentity.ancientChestBlockEntity;
-import net.chance.cavernsofchaos.block.blockentity.bugEggBlockEntity;
-import net.chance.cavernsofchaos.block.blockentity.dartTrapBlockEntity;
+import net.malachai.cavernsofchaos.Cavernsofchaos;
+import net.malachai.cavernsofchaos.block.blockentity.ancientChestBlockEntity;
+import net.malachai.cavernsofchaos.block.blockentity.bugEggBlockEntity;
+import net.malachai.cavernsofchaos.block.blockentity.dartTrapBlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

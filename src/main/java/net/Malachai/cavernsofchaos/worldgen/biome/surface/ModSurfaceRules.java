@@ -1,17 +1,11 @@
-package net.chance.cavernsofchaos.worldgen.biome.surface;
+package net.malachai.cavernsofchaos.worldgen.biome.surface;
 
-import net.chance.cavernsofchaos.worldgen.biome.ModBiomes;
-import net.minecraft.world.level.block.*;
+import net.malachai.cavernsofchaos.worldgen.biome.ModBiomes;
 import net.minecraft.world.level.levelgen.SurfaceRules;
-import net.chance.cavernsofchaos.block.ModBlocks;
+import net.malachai.cavernsofchaos.block.ModBlocks;
 import net.minecraft.world.level.levelgen.VerticalAnchor;
-import net.minecraft.world.level.levelgen.placement.CaveSurface;
-import net.minecraftforge.registries.RegistryObject;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.levelgen.SurfaceRules;
-
-import static net.minecraft.world.level.levelgen.SurfaceRules.*;
 
 public class ModSurfaceRules {
 

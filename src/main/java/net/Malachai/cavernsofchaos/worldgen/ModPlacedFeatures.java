@@ -1,6 +1,6 @@
-package net.chance.cavernsofchaos.worldgen;
+package net.malachai.cavernsofchaos.worldgen;
 
-import net.chance.cavernsofchaos.Cavernsofchaos;
+import net.malachai.cavernsofchaos.Cavernsofchaos;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderGetter;
 import net.minecraft.core.registries.Registries;

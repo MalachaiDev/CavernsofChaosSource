@@ -1,4 +1,4 @@
-package net.chance.cavernsofchaos;
+package net.malachai.cavernsofchaos;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;

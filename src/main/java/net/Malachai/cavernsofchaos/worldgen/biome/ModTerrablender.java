@@ -1,6 +1,6 @@
-package net.chance.cavernsofchaos.worldgen.biome;
+package net.malachai.cavernsofchaos.worldgen.biome;
 
-import net.chance.cavernsofchaos.Cavernsofchaos;
+import net.malachai.cavernsofchaos.Cavernsofchaos;
 import net.minecraft.resources.ResourceLocation;
 import terrablender.api.Regions;
 
